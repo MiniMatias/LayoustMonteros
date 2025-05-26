@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoustMonteros.StackLayout"
+             Title="StackLayout">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Nombre: Mateo" FontSize="Large" />
+        <Label Text="Apellido: Monteros" FontSize="Medium" />
+        <Label Text="Apellido: Morales" FontSize="Small" />
+
+        <Button Text="Ir a FlexLayout"
+                Clicked="OnGoToFlexLayoutClicked"
+                BackgroundColor="Purple"
+                TextColor="White" />
+    </VerticalStackLayout>
+
+</ContentPage>
