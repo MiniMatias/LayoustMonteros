@@ -5,9 +5,9 @@
              Title="StackLayout">
 
     <VerticalStackLayout Padding="20" Spacing="15">
-        <Label Text="Nombre: Mateo" FontSize="Large" />
+        <Label Text="Nombre: Matias" FontSize="Large" />
         <Label Text="Apellido: Monteros" FontSize="Medium" />
-        <Label Text="Apellido: Morales" FontSize="Small" />
+        <Label Text="Apellido: Porras" FontSize="Small" />
 
         <Button Text="Ir a FlexLayout"
                 Clicked="OnGoToFlexLayoutClicked"
